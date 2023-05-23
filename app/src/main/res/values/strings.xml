@@ -1,0 +1,1410 @@
+<resources>
+    <string name="titlea">گروه طراحی و برنامه نویسی کدپیچ</string>
+
+    <string name="aboutme"><!--
+        * برنامه نویسی تجاری و کاربردی مبتنی بر ویندوز
+     \n * برنامه نویسی موبایل
+     \n * ایجاد پایگاه داده,انبارهای داده ای و آنالیز داده کاوی
+     \n * فناوری اطلاعات سلامت انفورماتیک پزشکی
+     \n * طراحی و برنامه نویسی وب سایت
+     \n * طراحی و اجرای پوستر,بنر,استند و مفاهیم دیداری
+     \n * مشاوره,طراحی و اجرای فروشگاه و کسب و کار اینترنتی
+     \n * آموزش -->
+        این اپلیکیشن توسط شرکت بهسامان هوش افزار کوشا با همکاری دانشگاه علوم پزشکی کاشان طراحی شده است. امید است تا گامی شایسته در جهت کمک به جامعه ی سلامت برداشته شود.</string>
+    <string name="aboutme1">مدیر فنی: 09132765950
+    \n  www.hushafzar.ir</string>
+    <!--09132765950: مدیر فنی
+    www. codepich. ir-->
+    <string name="app_name">HAC app</string>
+    <string name="title">CT-->Headache</string>
+    <string name="lblBtnDel">Delete Selected Items</string>
+    <!-- <![CDATA[<FONT COLOR="#ff00"><u>سلام</u></FONT>]]>-->
+    <string name="about">About</string>
+    <string name="hac">Head CT appropriatness criteria application (HAC app)</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="favorites">Favorites</string>
+
+
+    <string-array name="ct">
+        <item>+ 1.  Head trauma</item>
+        <item>+ 2.  Abrupt onset of a neurologic deficit – including stroke and TIA</item>
+        <item>+ 3. Re-evaluation after stroke </item>
+        <item><![CDATA[<font COLOR="#800000"><b>+ 4. Headache, indications for imaging MRI  preferred </b></font>]]><![CDATA[<b>[One of the following]
+             ( except for D, J, and K which is CT preferred)</b>]]>
+
+        </item>
+        <item><![CDATA[<font COLOR="#800000"><b>+ 5. Seizure (MRI with gadolinium)
+</b></font>]]></item>
+        <item><![CDATA[<font COLOR="#800000"><b>6. CNS infection (MRI without and with contrast) [(Both A and B for new infection) or C or D or E or F]</b></font>]]></item>
+        <item>+ 7. Brain tumor</item>
+        <item>+ 8. Suspected pituitary disease (microadenoma, macroadenoma) </item>
+        <item>+ 9. Evaluation after intervention or surgery (CT should be performed for this indication if MRI is absolutely contraindicated) </item>
+        <item><![CDATA[<font COLOR="#800000"><b>+ 10. Suspected acoustic neuroma (schwannoma) or cerebellar pontine angle tumor [One of the following] (preferably MRI)</b></font>]]>
+        </item>
+        <item>+ 11. Hydrocephalus </item>
+        <item><![CDATA[<font COLOR="#800000"><b>12. Evaluation of tinnitus (ringing, hissing, buzzing, roaring, clicking, or rough sounds heard by patient) (preferably MRI)</b></font>]]></item>
+        <item><![CDATA[<font COLOR="#800000"><b>+ 13. Arnold-Chiari malformation(preferably MRI) [One of the following] </b></font>]]></item>
+        <item>14. Craniosynostosis</item>
+        <item>15. Fibrous dysplasia</item>
+        <item>+ 16. Macrocephaly</item>
+        <item>+ 17. Microcephaly</item>
+        <item>18. Encephalocele</item>
+        <item>19. Cephalohematoma</item>
+        <item>+ 20. Proptosis including thyroid eye disease and exophthalmos </item>
+        <item><![CDATA[<font COLOR="#800000"><b>+ 21. Visual field deficit(preferably MRI) [One of the following]</b></font>]]></item>
+        <item>+ 22. Hearing loss</item>
+        <item>+ 23. Vertigo</item>
+        <item>+ 24. Follow up proven subdural hematoma, epidural, subarachnoid, or intracerebral (parenchymal) hemorrhage</item>
+        <item>+ 25. Suspected intracranial hemorrhage</item>
+        <item><![CDATA[<font COLOR="#800000"><b>26. Papilledema or other signs of increased intracerebral pressure (preferably MRI)
+        </b></font>]]></item>
+        <item><![CDATA[<font COLOR="#800000"><b>+ 27. Acute, chronic or progressive mental status changes (preferably MRI)</b></font>]]></item>
+        <item>28. Evaluation of psychiatric disorders</item>
+        <item><![CDATA[<font COLOR="#800000"><b>+ 29. Bell’s palsy, with unusual presentation[One of the following] (preferably MRI)</b></font>]]></item>
+        <item><![CDATA[<font COLOR="#800000"><b>30. Planning for stereotactic or gamma knife surgery- may be approved with MRI of the brain</b></font>]]></item>
+    </string-array>
+    <string-array name="ct_1">
+
+        <item>+ A. Minor or mild acute closed head trauma without neurologic deficit adult</item>
+        <item>B. Mild or moderate acute closed head injury under age 2</item>
+        <item>C. Minor or acute closed head injury with focal neurologic deficit</item>
+        <item>D. Moderate or severe acute closed head trauma</item>
+        <item>E. Subacute or chronic closed head trauma with cognitive and/or neurologic deficit (MRI without contrast)</item>
+        <item><![CDATA[<font COLOR="#800000"><b>F. Suspected carotid or vertebral dissection (CTA or MRA of head and neck)</b></font>]]></item>
+        <item>G. Penetrating injury, stable neurologically intact</item>
+        <item>+ H. Focal neurologic finding</item>
+        <item>I. Drug or alcohol intoxication and evaluation is suboptimal or inadequate</item>
+        <item>J. Skull fracture</item>
+    </string-array>
+    <string-array name="ct_1_1">
+        <item>1. Glasgow Coma Scale ≥13</item>
+    </string-array>
+    <string-array name="ct_1_8">
+        <item>1. Motor weakness affecting a limb, or one side of the face or body</item>
+        <item>2. Decreased sensation affecting a limb, or one side of the face or body</item>
+        <item>3. Acute or subacute ataxia (unsteady and clumsy motion of the limbs or trunk)</item>
+        <item>4. Confusion including memory loss and disorientation</item>
+        <item>5. Impaired vision, including amaurosis fugax, visual field loss and diplopia</item>
+        <item>6. Aphasia (loss or impairment of the ability to produce or comprehend language due to brain damage)</item>
+        <item>7. Dysarthria (speech disorder resulting from neurological injury)</item>
+        <item>8. Dysphagia with no GI cause</item>
+        <item>9. Vertigo with either headache or nystagmus</item>
+        <item>10. Numbness, tingling, paresthesias</item>
+        <item>11. Decreased level of consciousness</item>
+        <item>12. Papilledema</item>
+        <item>13. Stiff neck</item>
+        <item>14. Drowsiness</item>
+        <item>15. New onset of vomiting</item>
+        <item>16. Nystagmus</item>
+        <item>17. Cranial nerve palsy</item>
+        <item>18. Gait disturbance</item>
+        <item>19. Personality or behavioral changes</item>
+        <item>20. New seizure</item>
+        <item>21. Hearing loss or new onset tinnitus</item>
+        <item>22. Agitation</item>
+        <item>23. Somnolence</item>
+        <item>24. Slow response to verbal communication</item>
+        <item>25. Sudden falls</item>
+        <item>26. Balance problems</item>
+    </string-array>
+    <string-array name="ct_2">
+        <item>A. Motor weakness affecting a limb, or one side of the face or body</item>
+        <item>B. Decreased sensation affecting a limb, or one side of the face or body</item>
+        <item>C. Acute or subacute ataxia (unsteady and clumsy motion of the limbs or trunk)</item>
+        <item>D. Confusion including memory loss and disorientation</item>
+        <item>E. Impaired vision, including amaurosis fugax, visual field loss and diplopia</item>
+        <item>F. Aphasia (loss or impairment of the ability to produce or comprehend language due to brain damage)</item>
+        <item>G. Dysarthria (speech disorder resulting from neurological injury)</item>
+        <item>H. Dysphagia with no GI cause</item>
+        <item>I. Vertigo with either headache or nystagmus</item>
+        <item>J. Numbness, tingling, paresthesias</item>
+        <item>K. Decreased level of consciousness</item>
+        <item>L. Papilledema</item>
+        <item>M. Stiff neck</item>
+        <item>N. New onset of severe headache</item>
+        <item>O. Drowsiness</item>
+        <item>P. New onset of vomiting</item>
+        <item>Q. Nystagmus</item>
+        <item>R. Cranial nerve palsy</item>
+        <item>S. Gait disturbance</item>
+        <item>T. Personality or behavioral changes</item>
+        <item>U. New seizure</item>
+        <item>V. Hearing loss or new onset tinnitus</item>
+        <item>W. Agitation</item>
+        <item>X. Somnolence</item>
+        <item>Y. Slow response to verbal communication</item>
+        <item>Z. Sudden falls</item>
+        <item>AA. Balance problems</item>
+
+    </string-array>
+    <string-array name="ct_3">
+        <item>A. Anti-coagulation planned</item>
+        <item>+ B. Deteriorating clinical status with new or worsening neurologic findings</item>
+        <item>C. Repeat after recent hemorrhagic stroke</item>
+
+    </string-array>
+    <string-array name="ct_3_2">
+        <item>1. Motor weakness affecting a limb, or one side of the face or body</item>
+        <item>2. Decreased sensation affecting a limb, or one side of the face or body</item>
+        <item>3. Acute or subacute ataxia (unsteady and clumsy motion of the limbs or trunk)</item>
+        <item>4. Confusion including memory loss and disorientation</item>
+        <item>5. Impaired vision, including amaurosis fugax, visual field loss and diplopia</item>
+        <item>6. Aphasia (loss or impairment of the ability to produce or comprehend language due to brain damage)</item>
+        <item>7. Dysarthria (speech disorder resulting from neurological injury)</item>
+        <item>8. Dysphagia with no GI cause</item>
+        <item>9. Vertigo with either headache or nystagmus</item>
+        <item>10. Numbness, tingling, paresthesias</item>
+        <item>11. Decreased level of consciousness</item>
+        <item>12. Papilledema</item>
+        <item>13. Stiff neck</item>
+        <item>14. New onset of severe headache</item>
+        <item>15. Drowsiness</item>
+        <item>16. New onset of vomiting</item>
+        <item>17. Nystagmus</item>
+        <item>18. Cranial nerve palsy</item>
+        <item>19. Gait disturbance</item>
+        <item>20. Personality or behavioral changes</item>
+        <item>21. New seizure</item>
+        <item>22. Hearing loss or new onset tinnitus</item>
+        <item>23. Agitation</item>
+        <item>24. Somnolence</item>
+        <item>25. Slow response to verbal communication</item>
+        <item>26. Sudden falls</item>
+        <item>27. Balance problems</item>
+    </string-array>
+    <string-array name="ct_4">
+        <item>A. Papilledema</item>
+        <item>B. Worsened by Valsalva maneuver, coughing straining or postural changes </item>
+        <item>C. Wakens from sleep</item>
+        <item><![CDATA[<b>+ D. Suspected subarachnoid hemorrhage (CT in early phase) with one of the following . </b>]]></item>
+        <item>E. Infection in an extracranial location </item>
+        <item>F. Change in mental status, personality, or level of consciousness </item>
+        <item><![CDATA[<font COLOR="#800000"><b>+ G. Suspected carotid or vertebral artery dissection or unilateral Horner’s syndrome (Headache may be unilateral) (CTA or MRA or MRI)of the following </b></font>]]></item>
+        <item>H. Head pain that spreads into the lower neck and between the shoulders (may indicate meningeal irritation due to either infection or subarachnoid blood; it is not typical of a benign process)</item>
+        <item>I. Suspected subdural hematoma with history of major head trauma or minor head trauma in an individual on anticoagulants</item>
+        <item><![CDATA[<b>J. Thunderclap headache (CT)</b>]]> </item>
+        <item><![CDATA[<b>K. Worst headache of life (CT)</b>]]> </item>
+        <item>+ L. New headache . </item>
+        <item>+ M. Chronic daily headache – headache for 15 or more days a month for at least 3 months</item>
+        <item>N. Known neurofibromatosis</item>
+        <item>O. Rapidly increasing frequency of headache</item>
+        <item><![CDATA[<font COLOR="#800000"><b>P. Personal history of cancer and new headache (MRI without and with contrast)</b></font>]]></item>
+
+    </string-array>
+    <string-array name="ct_4_4">
+        <item>1. With sudden onset of severe, exertional, or “thunderclap” headache</item>
+        <item>2. Associated with nausea, vomiting, diplopia, seizure, mental status change, or</item>
+        <item>3. History of prior known (documented on CTA, MRA, or angiogram) aneurysm or AVM</item>
+    </string-array>
+    <string-array name="ct_4_7">
+        <item>1. Neck pain</item>
+        <item>2. Unilateral facial or orbital pain</item>
+        <item>3. Unilateral headaches</item>
+        <item>4. Horner’s syndrome, miosis and ptosis (contraction of the iris, drooping eyelid) or</item>
+        <item>5. Transient ischemic attacks (TIA)</item>
+        <item>6. Minor neck trauma</item>
+        <item>7. Rapid onset of headache with strenuous exercise or Valsalva maneuver</item>
+    </string-array>
+    <string-array name="ct_4_12">
+        <item>
+           + 1. Abnormal neurologic examination</item>
+        <item>2. Aural temperature >38. 3°C or 100. 9°F</item>
+        <item>3. Stiff neck (nuchal rigidity)</item>
+        <item>4. History of HIV infection</item>
+        <item>5. History of TB</item>
+        <item>6. History of sarcoidosis</item>
+        <item>7. Age 5 years or less</item>
+        <item>8. Over age 50</item>
+        <item>9. Pregnancy</item>
+        <item>10. Headache with exertion</item>
+        <item>11. Documented infection outside the brain</item>
+        <item>12. Mental status changes</item>
+        <item>13. Extracranial malignancy</item>
+    </string-array>
+
+    <string-array name="ct_4_12_1">
+        <item> a. Motor weakness affecting a limb, or one side of the face or body</item>
+        <item> b. Decreased sensation affecting a limb, or one side of the face or body</item>
+        <item> c. Acute or subacute ataxia (unsteady and clumsy motion of the limbs or trunk</item>
+        )
+        <item> d. Confusion including memory loss and disorientation</item>
+        <item> e. Impaired vision, including amaurosis fugax, visual field loss and diplopia</item>
+        <item> f. Aphasia (loss or impairment of the ability to produce or comprehend language due to brain damage) </item>
+        <item> g. Dysarthria (speech disorder resulting from neurological injury) </item>
+        <item> h. Dysphagia with no GI cause </item>
+        <item> i. Vertigo with either headache or nystagmus </item>
+        <item> j. Numbness, tingling, paresthesias </item>
+        <item> k. Decreased level of consciousness </item>
+        <item> l. Papilledema </item>
+        <item> m. Stiff neck </item>
+        <item> n. New onset of severe headache </item>
+        <item> o. Drowsiness </item>
+        <item> p. New onset of vomiting </item>
+        <item> q. Nystagmus </item>
+        <item> r. Cranial nerve palsy </item>
+        <item> s. Gait disturbance </item>
+        <item> t. Personality or behavioral changes </item>
+        <item> u. New seizure </item>
+        <item> v. Hearing loss or new onset tinnitus </item>
+        <item> w. Agitation </item>
+        <item> x. Somnolence </item>
+        <item> y. Slow response to verbal communication </item>
+        <item> z. Sudden falls </item>
+        <item> aa. Balance problems </item>
+    </string-array>
+
+
+    <string-array name="ct_4_13">
+        <item><![CDATA[<font COLOR="#800000"><b>1. New neurologic deficit (See L1 above) (MRI without and with contrast)</b></font>]]></item>
+        <item>2. Imaging is not medically necessary if there is a normal neurologic examination and no new features of the headache</item>
+
+    </string-array>
+    <string-array name="ct_5">
+        <item>A. Refractory seizures in a candidate for surgery (only if MRI is contraindicated or not available)</item>
+        <item>B. New onset of seizures unrelated to trauma with drug use (only if MRI is contraindicated or not available)</item>
+        <item>C. New onset of seizures unrelated to trauma with alcohol use (only if MRI is contraindicated or not available)</item>
+        <item>D. New-onset seizure unrelated to trauma age 18-40 (only if MRI is contraindicated or not available; MRI without contrast)</item>
+        <item>E. New onset of seizure unrelated to trauma older than age 40 (only if MRI is contraindicated or not available; MRI without and with contrast)</item>
+        <item>F. New onset of seizures with focal neurologic deficit unrelated to trauma (MRI contraindicated or not available)</item>
+        <item>G. New onset of seizures older than 18 following acute trauma</item>
+        <item>H. New-onset seizure older than 18 post subacute or chronic trauma (only if MRI is contraindicated or not available; MRI without contrast)</item>
+        <item>I. Suspicion of migration anomalies or other morphologic brain abnormalities in children</item>
+        <item>J. Suspicion of cortical dysplasia</item>
+        <item>K. Partial seizures (MRI without contrast)</item>
+        <item>L. Epilepsy</item>
+    </string-array>
+    <string-array name="ct_6">
+        <item><![CDATA[<font COLOR="#800000"><b>+ A. Findings suggesting infection</b></font>]]></item>
+        <item><![CDATA[<font COLOR="#800000"><b>+ B. Other clinical findings</b></font>]]></item>
+        <item><![CDATA[<font COLOR="#800000"><b>C. Creutzfeldt-Jakob disease</b></font>]]></item>
+        <item><![CDATA[<font COLOR="#800000"><b>+ D. Bickerstaff encephalitis </b></font>]]>– usually follows a viral illness [Both of the following]</item>
+        <item><![CDATA[<font COLOR="#800000"><b>+ E. Fisher syndrome [Both of the following]</b></font>]]></item>
+        <item><![CDATA[<font COLOR="#800000"><b>F. Follow-up during and after completion of therapy to assess effectiveness</b></font>]]></item>
+    </string-array>
+    <string-array name="ct_6_1">
+        <item>1. Aural temperature >38. 3°C or 100. 9°F</item>
+        <item>2. Leukocytosis, WBC >11,500/cu. mm</item>
+        <item>3. Known infection elsewhere</item>
+        <item>4. Immunocompromised patient</item>
+    </string-array>
+    <string-array name="ct_6_2">
+        <item>1. Headache</item>
+        <item>2. Acute or subacute ataxia</item>
+        <item>3. Drowsiness or confusion</item>
+        <item>4. Focal neurological findings</item>
+        <item>5. Vomiting</item>
+        <item>6. Seizure</item>
+        <item>7. Stiff neck</item>
+        <item>8. Photophobia</item>
+        <item>9. Recurrence of symptoms after antimicrobial therapy</item>
+    </string-array>
+    <string-array name="ct_6_4">
+        <item>1. Ophthalmoplegia</item>
+        <item>2. Cerebellar ataxia</item>
+
+    </string-array>
+    <string-array name="ct_6_5">
+        <item>1. Ophthalmoplegia</item>
+        <item>2. Cerebellar ataxia</item>
+    </string-array>
+
+
+    <string-array name="ct_7">
+        <item>+ A. Evaluation of <![CDATA[<font COLOR="#800000"><b>known</b></font>]]> primary brain tumor</item>
+        <item><![CDATA[<font COLOR="#800000"><b>+ B. Evaluation for known or suspected brain metastases in patients with known extracranial malignancy (MRI without and with contrast)one of the following </b></font>]]></item>
+        <item><![CDATA[<font COLOR="#800000"><b>+ C. Cranial nerve palsy (MRI without and with contrast)</b></font>]]></item>
+        <item><![CDATA[<font COLOR="#800000"><b>+ D. Suspected brain tumor (MRI without and with contrast)</b></font>]]> </item>
+    </string-array>
+    <string-array name="ct_7_1">
+        <item>+ 1. New signs and symptoms or worsening neurological condition</item>
+        <item>+ 2. Interval re-evaluation of known brain tumor</item>
+    </string-array>
+
+
+    <string-array name="ct_7_1_1">
+        <item>a. Motor weakness affecting a limb, or one side of the face or body</item>
+        <item>b. Decreased sensation affecting a limb, or one side of the face or body</item>
+        <item>c. Acute or subacute ataxia (unsteady and clumsy motion of the limbs or trunk)</item>
+        <item>d. Confusion including memory loss and disorientation</item>
+        <item>e. Impaired vision, including amaurosis fugax, visual field loss and diplopia</item>
+        <item>f. Aphasia (loss or impairment of the ability to produce or comprehend language due to brain damage)</item>
+        <item>g. Dysarthria (speech disorder resulting from neurological injury)</item>
+        <item>h. Dysphagia with no GI cause</item>
+        <item>i. Vertigo with either headache or nystagmus</item>
+        <item>j. Numbness, tingling, paresthesias</item>
+        <item>k. Decreased level of consciousness</item>
+        <item>l. Papilledema</item>
+        <item>m. Stiff neck</item>
+        <item>n. New onset of severe headache</item>
+        <item>o. Drowsiness</item>
+        <item>p. New onset of vomiting</item>
+        <item>q. Nystagmus</item>
+        <item>r. Cranial nerve palsy</item>
+        <item>s. Gait disturbance</item>
+        <item>t. Personality or behavioral changes</item>
+        <item>u. New seizure</item>
+        <item>v. Hearing loss or new onset tinnitus</item>
+        <item>w. Agitation</item>
+        <item>x. Somnolence</item>
+        <item>y. Slow response to verbal communication</item>
+        <item>z. Sudden falls</item>
+        <item>aa. Balance problems</item>
+    </string-array>
+
+    <string-array name="ct_7_1_2">
+        <item>+ a. Anaplastic astrocytoma, anaplastic oligodendroglioma or glioblastoma multiforme or any high grade or aggressive primary brain tumor</item>
+        <item>+ b. Adult low-grade infiltrative supratentorial astrocytoma or oligodendroglioma</item>
+        <item>+ c. Adult ependymoma</item>
+        <item>+ d. Adult medulloblastoma and supratentorial PNET</item>
+        <item> + e. Meningioma</item>
+        <item>f. Other primary intracranial cancers may be imaged at completion of treatment and thereafter at 90 to 180 day intervals if clinically stable and then annually</item>
+        <item>+ g. New signs and symptoms or worsening neurological condition</item>
+    </string-array>
+    <string-array name="ct_7_1_2_1">
+        <item>i. Re-image after surgery (complete or subtotal)</item>
+        <item>ii. Image 2-6 weeks after completion of radiation therapy</item>
+        <item>iii. Following completion of chemotherapy</item>
+        <item>iv. Every 60-120 days for 2-3 years if asymptomatic and then less often</item>
+        <item>v. New signs and symptoms (See 1 above) regardless of date of last imaging</item>
+    </string-array>
+    <string-array name="ct_7_1_2_2">
+        <item> <![CDATA[<font COLOR="#800000"><b>i. MRI every 3-6 months for 5 years then annually</b></font>]]></item>
+    </string-array>
+    <string-array name="ct_7_1_2_3">
+        <item>i. Following resection</item>
+        <item>ii. Every 3-4 months for a year then every 4-6 months for 2nd year then every 6-12 months</item>
+
+    </string-array>
+    <string-array name="ct_7_1_2_4">
+        <item>i. Post operative restaging</item>
+        <item>ii. Every 3 months for 2 years then every 6 months for 3 years then annually</item>
+
+    </string-array>
+    <string-array name="ct_7_1_2_5">
+        <item>i. If unresected or WHO Grade 1 (benign) or 2 (atypical), image at 3, 6, 12 months after diagnosis then every 6-12 months or 5 years then every 1-3 years</item>
+        <item>ii. WHO Grade 3 (malignant) image at least at 3, 6, 12 months and then every 6-12  months or 5 years and then every 1-3 years more frequent imaging may be required</item>
+    </string-array>
+    <string-array name="ct_7_1_2_7">
+        <item>i. Motor weakness affecting a limb, or one side of the face or body</item>
+        <item>ii. Decreased sensation affecting a limb, or one side of the face or body</item>
+        <item>iii. Acute or subacute ataxia (unsteady and clumsy motion of the limbs or trunk)</item>
+        <item>iv. Confusion including memory loss and disorientation</item>
+        <item>v. Impaired vision, including amaurosis fugax, visual field loss and diplopia</item>
+        <item>vi. Aphasia (loss or impairment of the ability to produce or comprehend language due
+        to brain damage)</item>
+        <item>vii. Dysarthria (speech disorder resulting from neurological injury)</item>
+        <item> viii. Dysphagia with no GI cause</item>
+        <item>ix. Vertigo with either headache or nystagmus</item>
+        <item> x. Numbness, tingling, paresthesias</item>
+        <item>xi. Decreased level of consciousness</item>
+        <item>xii. Papilledema</item>
+        <item>xiii. Stiff neck</item>
+        <item>xiv. New onset of severe headache</item>
+        <item>xv. Drowsiness</item>
+        <item>xvi. New onset of vomiting</item>
+        <item>xvii. Nystagmus</item>
+        <item>xviii. Cranial nerve palsy</item>
+        <item>xix. Gait disturbance</item>
+        <item>xx. Personality or behavioral changes</item>
+        <item>xxi. New seizure</item>
+        <item>xxii. Hearing loss or new onset tinnitus</item>
+        <item>xxiii. Agitation</item>
+        <item>xxiv. Somnolence</item>
+        <item>xxv. Slow response to verbal communication</item>
+        <item>xxvi. Sudden falls</item>
+        <item>xxvii. Balance problems</item>
+
+    </string-array>
+
+    <string-array name="ct_7_2">
+        <item>+ 1. Routine initial staging for one of the following</item>
+        <item><![CDATA[<b>+ 2. New neurological signs or symptoms with any known malignancy</b>]]>[One of the following] </item>
+
+        <item>3. Prior to prophylactic cranial irradiation for small cell lung cancer</item>
+        <item>+ 4. Follow-up known brain metastases during or after chemotherapy</item>
+        <item>+ 5. Follow-up known brain metastases after whole brain radiation therapy</item>
+        <item>+ 6. Follow-up known brain metastases after stereotactic or CyberKnife® radiation treatment</item>
+
+        <item>+ 7. Follow-up known brain metastases after surgery</item>
+        <item> 8. Known brain metastasis with new or worsening symptoms as indicated in number VII. B. 2. </item>
+        <!--C. Cranial nerve palsy (MRI without and with contrast)
+    -->
+
+    </string-array>
+    <string-array name="ct_7_2_1">
+        <item>a. Sarcoma</item>
+        <item>b. Melanoma stage II or higher</item>
+        <item>c. Small-cell lung cancer</item>
+        <item>d. Non-small cell lung cancer for stage IB and higher</item>
+    </string-array>
+
+    <string-array name="ct_7_2_2">
+        <item>a. Motor weakness affecting a limb, or one side of the face or body</item>
+        <item>b. Decreased sensation affecting a limb, or one side of the face or body</item>
+        <item>c. Acute or subacute ataxia (unsteady and clumsy motion of the limbs or trunk)</item>
+        <item>d. Confusion including memory loss and disorientation</item>
+        <item>e. Impaired vision, including amaurosis fugax, visual field loss and diplopia</item>
+        <item>f. Aphasia (loss or impairment of the ability to produce or comprehend language due to
+    brain damage)</item>
+        <item>g. Dysarthria (speech disorder resulting from neurological injury)</item>
+        <item>h. Dysphagia with no GI cause</item>
+        <item>i. Vertigo with either headache or nystagmus</item>
+        <item>j. Numbness, tingling, paresthesias</item>
+        <item>k. Decreased level of consciousness</item>
+        <item>l. Papilledema</item>
+        <item>m. Stiff neck</item>
+        <item>n. New onset of severe headache</item>
+        <item>o. Drowsiness</item>
+        <item>p. New onset of vomiting</item>
+        <item>q. Nystagmus</item>
+        <item>r. Cranial nerve palsy</item>
+        <item>s. Gait disturbance</item>
+        <item>t. Personality or behavioral changes</item>
+        <item> u. New seizure</item>
+        <item> v. Hearing loss or new onset tinnitus</item>
+        <item> w. Agitation</item>
+        <item> x. Somnolence</item>
+        <item> y. Slow response to verbal communication</item>
+        <item> z. Sudden falls</item>
+        <item>aa. Balance problems</item>
+    </string-array>
+    <string-array name="ct_7_2_4">
+        <item>a. Follow-up after intervention to establish a new baseline</item>
+        <item><![CDATA[<font COLOR="#800000"><b> b. Imaging (MRI without and with contrast, and CT should be done only if MRI is absolutely contraindicated or unavailable) every 3 months for 1 year after completion
+    of therapy</b></font>]]></item>
+        <item>c. After one year imaging is performed based on clinical signs and symptoms (See 2 above)</item>
+        <item>d. Melanoma stage IIB or higher annually</item>
+
+    </string-array>
+    <string-array name="ct_7_2_5">
+        <item>a. Follow-up after intervention to establish a new baseline then every 6 weeks for 3 months and then</item>
+        <item><![CDATA[<font COLOR="#800000"><b>b. Imaging (preferably MRI) every 3 months for 1 year after completion of therapy</b></font>]]></item>
+        <item>c. After one year imaging is performed based on clinical signs and symptoms</item>
+        <item>d. Melanoma stage IIB or higher annually</item>
+
+    </string-array>
+    <string-array name="ct_7_2_6">
+        <item>a. Every 6 weeks x 2, then every 12 weeks x 2, then every 3-6 months if stable</item>
+    </string-array>
+
+    <string-array name="ct_7_2_7">
+        <item>a. Follow up after intervention to establish a new baseline then every 6 weeks for 3 months and then</item>
+        <item><![CDATA[<font COLOR="#800000"><b>b. Imaging (preferably MRI) every 3 months for 1 year after completion of treatment</b></font>]]></item>
+        <item>c. After one year imaging is performed based on clinical signs and symptoms</item>
+        <item>d. Melanoma stage IIB or higher annually</item>
+
+    </string-array>
+
+
+    <string-array name="ct_7_3">
+        <item>1. Anosmia</item>
+        <item>2. Weakness or paralysis of muscles of mastication</item>
+        <item>3. Sensory loss in the head and neck</item>
+        <item>4. Weakness or paralysis of facial expression</item>
+        <item>5. Weakness of the palate</item>
+        <item>6. Vocal cord paralysis</item>
+        <item>7. Weakness or paralysis of the sternocleidomastoid muscle</item>
+        <item>8. Weakness or paralysis of the trapezius</item>
+        <item>9. Weakness or paralysis of the tongue</item>
+    </string-array>
+    <string-array name="ct_7_4">
+        <item>+ 1. New onset of neurologic findings</item>
+
+    </string-array>
+    <string-array name="ct_7_4_1">
+        <item>a. Motor weakness affecting a limb, or one side of the face or body</item>
+        <item>b. Decreased sensation affecting a limb, or one side of the face or body</item>
+        <item>c. Acute or subacute ataxia (unsteady and clumsy motion of the limbs or trunk)</item>
+        <item>d. Confusion including memory loss and disorientation</item>
+        <item>e. Impaired vision, including amaurosis fugax, visual field loss and diplopia</item>
+        <item>f. Aphasia (loss or impairment of the ability to produce or comprehend language due to
+        brain damage)</item>
+        <item>g. Dysarthria (speech disorder resulting from neurological injury)</item>
+        <item>h. Dysphagia with no GI cause</item>
+        <item>i. Vertigo with either headache or nystagmus</item>
+        <item>j. Numbness, tingling, paresthesias</item>
+        <item>k. Decreased level of consciousness</item>
+        <item>l. Papilledema</item>
+        <item>m. Stiff neck</item>
+        <item>n. New onset of severe headache</item>
+        <item>o. Drowsiness</item>
+        <item>p. New onset of vomiting</item>
+        <item>q. Nystagmus</item>
+        <item>r. Cranial nerve palsy</item>
+        <item>s. Gait disturbance</item>
+        <item>t. Personality or behavioral changes</item>
+        <item>u. New seizure</item>
+        <item>v. Hearing loss or new onset tinnitus</item>
+        <item>w. Agitation</item>
+        <item>x. Somnolence</item>
+        <item>y. Slow response to verbal communication</item>
+        <item>z. Sudden falls</item>
+        <item>aa. Balance problems</item>
+    </string-array>
+
+
+    <string-array name="ct_8">
+        <item>+ A. Elevated pituitary hormones including precocious puberty
+            </item>
+        <item>+ B. Hypopituitarism including hypogonadism
+           </item>
+        <item>+ C. Known pituitary tumor (adenoma, microadenoma, macroadenoma)
+           </item>
+
+
+    </string-array>
+    <string-array name="ct_8_1">
+        <item>1. Prolactin (PRL) >20ng/mL [micrograms/L]</item>
+        <item>2. Growth hormone (GH) ≥5 ng/mL [micrograms/L]</item>
+        <item>3. Thyroid stimulating hormone (TSH) >4U/mL [mcIU/L]</item>
+        <item>4. Follicular stimulating hormone (FSH)</item>
+
+        <item>+ 5. Luteinizing hormone (LH) </item>
+
+        <item>6. Adrenocorticotropic hormone (ACTH) >46 pg/mL (Cushing’s disease)</item>
+    </string-array>
+    <string-array name="ct_8_1_4">
+        <item>a. Male: >10 mIU/mL</item>
+        <item>+ b. Female: (mIU/mL)</item>
+    </string-array>
+    <string-array name="ct_8_1_4_2">
+        <item>i. Follicular phase >13</item>
+        <item>ii. Luteal phase>13</item>
+        <item>iii. Midcycle >22</item>
+        <item>iv. Postmenopausal >150</item>
+    </string-array>
+    <string-array name="ct_8_1_5">
+        <item>a. Male: >8 mIU/mL</item>
+        <item>+ b. Female: (mIU/mL)</item>
+    </string-array>
+    <string-array name="ct_8_1_5_2">
+        <item>i. Follicular phase>12</item>
+        <item>ii. Luteal phase>15</item>
+        <item>iii. Midcycle peak >77</item>
+        <item>iv. Postmenopausal >40</item>
+    </string-array>
+
+
+    <string-array name="ct_8_2">
+        <item>+ 1. Pituitary apoplexy</item>
+        <item>+ 2. Acquired hypopituitarism</item>
+        <item>+ 3. Gonadotropin deficiency or hypogonadism</item>
+        <item>4. TSH deficiency  0. 4 and low to low-normal T4 and T3</item>
+        <item>5. ACTH deficiency (Addison’s disease)</item>
+        <item>6. ADH deficiency (diabetes insipidus)</item>
+        <item>+ 7. Growth hormone deficiency</item>
+        <item>+ 8. Visual problems</item>
+        <item>a. Bitemporal visual field loss – loss of peripheral vision bilaterally</item>
+        <item>b. Optic atrophy</item>
+        <item>c. Drooping eyelid</item>
+        <item>d. Diabetes insipidus</item>d. Diabetes insipidus
+    </string-array>
+    <string-array name="ct_8_2_1">
+        <item>a. Acute headache with vomiting</item>
+        <item>b. Ophthalmoplegia</item>
+        <item>c. Amaurosis</item>
+        <item>d. Depressed level of consciousness</item>
+        <item>e. Bitemporal hemianopsia</item>
+    </string-array>
+    <string-array name="ct_8_2_2">
+        <item>a. Cranial irradiation</item>
+        <item>b. Brain surgery</item>
+        <item>c. Head trauma</item>
+        <item>d. Empty sella</item>
+        <item>e. Hemochromatosis</item>
+        <item>f. Prior brain infection</item>
+        <item>g. Known pituitary tumor</item>
+        <item>h. Langerhans cell histiocytosis of the pituitary</item>
+    </string-array>
+    <string-array name="ct_8_2_3">
+        <item>+ a. Male [All of the following]</item>
+        <item>+ b. Female [All of the following]</item>
+    </string-array>
+    <string-array name="ct_8_2_3_1">
+        <item>+ i. History</item>
+        <item>+ ii. Laboratory tests</item>
+    </string-array>
+    <string-array name="ct_8_2_3_1_1">
+        <item>01. Loss of libido</item>
+        <item>02. Impotence</item>
+        <item>03. History of undescended testicle or cryptorchidism</item>
+        <item>04. History of testicular failure</item>
+        <item>05. History of chemotherapy or radiation therapy</item>
+        <item>06. Visual field disorder</item>
+        <item>07. Decreased body hair </item>
+        <item>08. Galactorrhea </item>
+        <item>09. Gynecomastia </item>
+
+    </string-array>
+    <string-array name="ct_8_2_3_1_2">
+        <item>01. Low to normal free testosterone, LH and FSH (the laboratory values may be requested)</item>
+    </string-array>
+
+    <string-array name="ct_8_2_3_2">
+        <item>i. Oligomenorrhea or amenorrhea</item>
+        <item>ii. Low normal LH, FSH</item>
+
+    </string-array>
+    <string-array name="ct_8_2_7">
+        <item>+ a. Adults</item>
+        <item>+ b. Children with no evidence of malignancy, Crohn’s disease, renal disease, hypothyroidism, or Turner’s syndrome, and one of the following</item>
+    </string-array>
+
+    <string-array name="ct_8_2_7_1">
+        <item>i. History of radiation or surgery to the pituitary or hypothalamic region</item>
+        <item>ii. Decreased levels of 3 or more pituitary hormones (TSH, LH, FSH, ACTH, GHRH,ADH)</item>
+        <item>iii. Decreased levels of IGF-I (insulin-like growth factor I) based on laboratory normal range</item>
+        <item>+ iv. Insulin tolerance test (contraindicated in individuals with history of seizures or coronary artery disease)</item>
+        <item>+ v. Arginine stimulating test </item>
+    </string-array>
+    <string-array name="ct_8_2_7_1_4">
+        <item>01. Growth hormone response ≤10 ng/mL [micrograms/L]</item>
+    </string-array>
+
+    <string-array name="ct_8_2_7_1_5">
+        <item>01. Growth hormone response ≤10 ng/mL [micrograms/L]</item>
+    </string-array>
+    <string-array name="ct_8_2_7_2">
+        <item>i. Bone age more than 2 standard deviations below the mean for age</item>
+        <item>ii. History of surgery or radiation in the pituitary or hypothalamus regions</item>
+        <item>iii. Growth hormone levels below normal (≤10 ng/mL [micrograms/L]</item>
+        <item>iv. History of intrauterine growth retardation </item>
+        <item>v. Prader-Willi syndrome</item>
+        <item>+ vi. Children over the age of 1 </item>
+        <item>vii. Neonate random growth hormone level 20 ng/mL [micrograms/L]</item>
+    </string-array>
+    <string-array name="ct_8_2_7_2_6">
+        <item>01. Insulin tolerance test positive with GH response ≤10 ng/mL [micrograms/L]</item>
+    </string-array>
+
+
+    <string-array name="ct_8_3">
+        <item>
+            1. Following transsphenoidal resection</item>
+        <item>2. Following radiation therapy</item>
+        <item>3. New signs or symptoms such as visual changes, new headache, new onset of vomiting, papilledema, drooping eyelid, optic atrophy</item>
+        <item>+ 4. Follow-up of asymptomatic nonfunctioning microadenoma 10mm in size</item>
+        <item>5. Follow-up of asymptomatic nonfunctioning macroadenoma 6 months after the initial diagnosis and then annually</item>
+    </string-array>
+    <string-array name="ct_8_3_4">
+        <item>a. MRI at one year</item>
+        <item> b. MRI every 1-2 years for 3 years and then less frequently as long as tumor does not increase in size</item>
+
+    </string-array>
+
+
+    <string-array name="ct_9">
+        <item>+ A. New or worsening neurologic condition </item>
+        <item>+ B. Aneurysm clip</item>
+
+
+    </string-array>
+    <string-array name="ct_9_1">
+        <item>1. Motor weakness affecting a limb, or one side of the face or body</item>
+        <item>2. Decreased sensation affecting a limb, or one side of the face or body</item>
+        <item>3. Acute or subacute ataxia (unsteady and clumsy motion of the limbs or trunk)</item>
+        <item>4. Confusion including memory loss and disorientation</item>
+        <item>5. Impaired vision, including amaurosis fugax, visual field loss and diplopia</item>
+        <item>6. Aphasia (loss or impairment of the ability to produce or comprehend language due to brain damage)</item>
+        <item>7. Dysarthria (speech disorder resulting from neurological injury)</item>
+        <item>8. Dysphagia with no GI cause</item>
+        <item>9. Vertigo with either headache or nystagmus</item>
+        <item>10. Numbness, tingling, paresthesias</item>
+        <item>11. Decreased level of consciousness</item>
+        <item>12. Papilledema</item>
+        <item>13. Stiff neck</item>
+        <item>14. New onset of severe headache</item>
+        <item>15. Drowsiness</item>
+        <item>16. New onset of vomiting</item>
+        <item>17. Nystagmus</item>
+        <item>18. Cranial nerve palsy</item>
+        <item>19. Gait disturbance</item>
+        <item>20. Personality or behavioral changes</item>
+        <item>21. New seizure</item>
+        <item>22. Hearing loss or new onset tinnitus</item>
+        <item>23. Agitation</item>
+        <item>24. Somnolence</item>
+        <item>25. Slow response to verbal communication</item>
+        <item>26. Sudden falls</item>
+        <item>27. Balance problems</item>
+    </string-array>
+    <string-array name="ct_9_2">
+        <item>+ 1. Stable with no change in neurologic findings</item>
+
+        <item>2. New neurologic findings (See A above)</item>
+    </string-array>
+    <string-array name="ct_9_2_1">
+        <item>a. Annual</item>
+    </string-array>
+    <string-array name="ct_10">
+        <item>
+           + A. Findings/test results
+           </item>
+        <item>B. Neurofibromatosis</item>
+
+
+    </string-array>
+    <string-array name="ct_10_1">
+        <item>1. Asymmetric sensorineural hearing loss by audiometry</item>
+        <item>2. Facial weakness</item>
+        <item>3. Altered sense of taste</item>
+        <item>4. Tinnitus</item>
+        <item>5. Balance problems</item>
+        <item>6. Facial numbness</item>
+    </string-array>
+
+    <string-array name="ct_11">
+        <item>+ A. Suspected obstructive hydrocephalus [Clinical findings and supportive history] </item>
+        <item>+ B. Normal pressure hydrocephalus (NPH)</item>
+        <item>C. Suspicion of VP (ventriculoperitoneal) shunt malfunction</item>
+
+    </string-array>
+    <string-array name="ct_11_1">
+        <item>+ 1. Clinical findings</item>
+        <item>+ 2. History of</item>
+
+    </string-array>
+    <string-array name="ct_11_1_1">
+        <item>a. Headache</item>
+        <item>b. Papilledema</item>
+        <item>c. Diplopia</item>
+        <item>d. Mental status changes</item>
+        <item>e. Gait disturbance or ataxia (People with ataxia experience a failure of muscle control in their arms and legs, resulting in a \n \tlack of balance and coordination or a disturbance of  gait)</item>
+        <item>f. Seizure</item>
+
+    </string-array>
+    <string-array name="ct_11_1_2">
+        <item>a. Arteriovenous malformation (AVM)</item>
+        <item>b. Aneurysm</item>
+        <item>c. Intraventricular or SAH</item>
+        <item>d. Meningitis</item>
+        <item>e. Known hydrocephalus</item>
+    </string-array>
+
+
+    <string-array name="ct_11_2">
+        <item>1. Gait disturbance (shuffling, magnetic, wide based, disequilibrium, and slow gait)</item>
+        <item>2. Motor perseveration (tremors)</item>
+        <item>3. Urinary incontinence, urgency or frequency</item>
+        <item>4. Dementia</item>
+        <item>5. Known NPH with worsening symptoms</item>
+    </string-array>
+
+    <string-array name="ct_13">
+        <item>A. Cranial nerve palsy</item>
+        <item>B. Headache</item>
+        <item>C. Incontinence</item>
+        <item>D. Lumbar myelomeningocele</item>
+        <item>E. Neck or back pain</item>
+        <item>F. Sensory loss</item>
+        <item>G. Tethered cord</item>
+        <item>H. Unsteady gait</item>
+        <item>I. Lower extremity spasticity</item>
+        <item>J. Follow up known Chiari with new or changed symptoms</item>
+
+    </string-array>
+    <!-- <string-array name="ct_14"></string-array>
+    <string-array name="ct_15"></string-array>-->
+    <string-array name="ct_16">
+        <item>A. Head circumference greater than 2 standard deviations average for age</item>
+    </string-array>
+    <string-array name="ct_17">
+        <item>A. Head circumference smaller than 2 standard deviations average for age</item>
+    </string-array>
+    <!-- <string-array name="ct_18"></string-array>
+    <string-array name="ct_19"></string-array>-->
+    <string-array name="ct_20">
+        <item>A. Orbital asymmetry in a child with visual loss</item>
+        <item>B. Adult with painful visual loss </item>
+        <item>C. Hyperthyroidism with visual loss or visual compromise (Graves’ disease)</item>
+    </string-array>
+    <string-array name="ct_21">
+        <item>A. Bitemporal hemianopsia (loss of peripheral vision)</item>
+        <item>B. Homonymous hemianopsia (loss of vision in the nasal half of one eye and the outer half of the other eye)</item>
+        <item>C. Scotoma (loss of central vision)</item>
+        <item>D. Heteronymous hemianopsia (loss of vision in either the nasal half or the outer half of both eyes)</item>
+    </string-array>
+    <string-array name="ct_22">
+        <item>
+        <![CDATA[<b>+ A. Suspected cholesteatoma and audiogram demonstrating conductive hearing loss (CT of the temporal bone) and one of the following
+          </b>]]> </item>
+        <item>+ B. Conductive hearing loss</item>
+        <item><![CDATA[<b>C. Total deafness, congenital hearing loss (CT of the temporal bone)</b>]]> </item>
+        <item><![CDATA[<b>D. Preoperative planning for cochlear implant (CT of the temporal bone)</b>]]> </item>
+        <item>+ E. Fluctuating hearing loss</item>
+        <item><![CDATA[<font COLOR="#800000"><b>+ F. Glomus tumor (MRI)</b></font>]]></item>
+        <item><![CDATA[<font COLOR="#800000"><b>G. Sensorineural hearing loss on recent audiogram (MRI of the head without and with contrast)</b></font>]]></item>
+        <item>H. Mixed conductive and sensorineural hearing loss on recent audiogram</item>
+
+    </string-array>
+    <string-array name="ct_22_1">
+        <item>1. Acute and intermittent vertigo</item>
+        <item>2. Painless otorrhea</item>
+        <item>3. Purulent drainage from the ear or mastoid area</item>
+        <item>4. Purulent drainage and granulation tissue in the ear</item>
+    </string-array>
+    <string-array name="ct_22_2">
+        <item> 1. Must have audiogram documenting conductive hearing loss</item>
+    </string-array>
+    <string-array name="ct_22_5">
+        <item>1. History of meningitis</item>
+    </string-array>
+    <string-array name="ct_22_6">
+        <item>1. Reddish-blue mass in the ear</item>
+    </string-array>
+    <string-array name="ct_23">
+        <item>A. Episodic with or without associated hearing loss or tinnitus</item>
+        <item><![CDATA[<font COLOR="#800000"><b>B. Central vertigo with or without other symptoms (MRI of the brain without and with contrast)</b></font>]]></item>
+    </string-array>
+    <string-array name="ct_24">
+        <item>A. Motor weakness affecting a limb, or one side of the face or body</item>
+        <item>B. Decreased sensation affecting a limb, or one side of the face or body</item>
+        <item>C. Acute or subacute ataxia (unsteady and clumsy motion of the limbs or trunk)</item>
+        <item>D. Confusion including memory loss and disorientation</item>
+        <item>E. Impaired vision, including amaurosis fugax, visual field loss and diplopia</item>
+        <item>F. Aphasia (loss or impairment of the ability to produce or comprehend language due to brain damage)</item>
+        <item>G. Dysarthria (speech disorder resulting from neurological injury)</item>
+        <item>H. Dysphagia with no GI cause</item>
+        <item>I. Vertigo with either headache or nystagmus</item>
+        <item>J. Numbness, tingling, paresthesias</item>
+        <item>K. Decreased level of consciousness</item>
+        <item>L. Papilledema</item>
+        <item>M. Stiff neck</item>
+        <item>N. New onset of severe headache</item>
+        <item>O. Drowsiness</item>
+        <item>P. New onset of vomiting</item>
+        <item>Q. Nystagmus</item>
+        <item>R. Cranial nerve palsy</item>
+        <item>S. Gait disturbance</item>
+        <item>T. Personality or behavioral changes</item>
+        <item>U. New seizure</item>
+        <item>V. Hearing loss or new onset tinnitus</item>
+        <item>W. Agitation</item>
+        <item>X. Somnolence</item>
+        <item>Y. Slow response to verbal communication</item>
+        <item>Z. Sudden falls</item>
+        <item>AA. Balance problems</item>
+        <item><![CDATA[<b>BB. Follow up within 36 hours of initial presentation if not performed previously</b>]]></item>
+        <item>CC. Interval follow up with or without change in clinical signs or symptoms</item>
+    </string-array>
+    <string-array name="ct_25">
+        <item>+ A. Head trauma</item>
+        <item>+ B. Suspicion of acute subarachnoid hemorrhage</item>
+        <item>+ C. Intracerebral (parenchymal) hemorrhage </item>
+
+
+    </string-array>
+    <string-array name="ct_25_1">
+        <item>1. Amnesia</item>
+        <item>2. Altered level of consciousness or loss of consciousness</item>
+        <item>3. Vomiting</item>
+        <item>4. Neurologic symptoms</item>
+        <item>5. Seizure</item>
+        <item>6. Coagulopathy previously diagnosed (or current treatment with heparin or Coumadin®)</item>
+        <item>7. Skull fracture</item>
+        <item>8. Ataxia</item>
+        <item>9. Aphasia</item>
+        <item>10. Decreased sensation in a limb</item>
+        <item>11. Visual field loss</item>
+        <item>12. Double vision</item>
+        <item>13. Memory loss</item>
+    </string-array>
+    <string-array name="ct_25_2">
+        <item>1. Vomiting</item>
+        <item>2. Sudden onset of severe hypertension</item>
+        <item>3. Decreased level of consciousness</item>
+        <item>4. Thunderclap headache</item>
+        <item>5. Worst headache of one’s life</item>
+        <item>6. Headache and known aneurysm</item>
+        <item>7. Headache and first degree relative with aneurysm</item>
+        <item>8. Treated aneurysm and/or AVM with new headache or findings on neurologic examination</item>
+        <item>9. Stiff neck</item>
+        <item>10. Seizure</item>
+        <item>11. Third nerve palsy</item>
+    </string-array>
+    <string-array name="ct_25_3">
+        <item>1. Hypertension with new onset headache</item>
+        <item>2. Known brain metastases with change in neurologic status</item>
+        <item>+ 3. New onset of neurologic symptoms</item>
+
+        <item>4. Follow-up within 36 hours of initial presentation if not performed previously</item>
+        <item>5. Interval follow-up with or without change in signs and symptoms</item>
+    </string-array>
+    <string-array name="ct_25_3_3">
+        <item>a. Motor weakness affecting a limb, or one side of the face or body</item>
+        <item>b. Decreased sensation affecting a limb, or one side of the face or body</item>
+        <item>c. Acute or subacute ataxia (unsteady and clumsy motion of the limbs or trunk)</item>
+        <item>d. Confusion including memory loss and disorientation</item>
+        <item>e. Impaired vision, including amaurosis fugax, visual field loss and diplopia</item>
+        <item>f. Aphasia (loss or impairment of the ability to produce or comprehend language due to
+       brain damage)</item>
+        <item>g. Dysarthria (speech disorder resulting from neurological injury)</item>
+        <item>h. Dysphagia with no GI cause</item>
+        <item>i. Vertigo with either headache or nystagmus</item>
+        <item>j. Numbness, tingling, paresthesias</item>
+        <item>k. Decreased level of consciousness</item>
+        <item>l. Papilledema</item>
+        <item>m. Stiff neck</item>
+        <item>n. New onset of severe headache</item>
+        <item>o. Drowsiness</item>
+        <item>p. New onset of vomiting</item>
+        <item>q. Nystagmus</item>
+        <item>r. Cranial nerve palsy</item>
+        <item>s. Gait disturbance</item>
+        <item>t. Personality or behavioral changes</item>
+        <item>u. New seizure</item>
+        <item>v. Hearing loss or new onset tinnitus</item>
+        <item>w. Agitation</item>
+        <item>x. Somnolence</item>
+        <item>y. Slow response to verbal communication</item>
+        <item>z. Sudden falls</item>
+        <item>aa. Balance problems</item>
+    </string-array>
+    <string-array name="ct_27">
+        <item>+ A. Deteriorating cognitive function</item>
+    </string-array>
+    <string-array name="ct_27_1">
+        <item>1. Progressive loss of memory</item>
+        <item>2. Confusion</item>
+        <item>3. Disorientation</item>
+        <item>4. Personality changes</item>
+    </string-array>
+
+    <string-array name="ct_29">
+        <item>
+            Bell’s palsy is the sudden onset of temporary facial paralysis which is the result of an insult to the  7th cranial nerve or the facial nerve.  It usually presents as unilateral paralysis of the face including the eyelid and decreased tearing. 
+        </item>
+        <item>A. No improvement in facial paresis after one month</item>
+        <item>B. Hearing loss</item>
+        <item>C. Multiple cranial nerve deficits</item>
+        <item>D. Weakness or sensory loss in an extremity</item>
+        <item>E. Bilateral symptoms</item>
+    </string-array>
+
+
+    <!--<item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>-->
+
+    <string-array name="cta">
+        <item>+ 1. Subarachnoid hemorrhage (SAH)</item>
+        <item>+ 2. Proven intracerebral (hemorrhage or hematoma)</item>
+        <item>3. Recent stroke by history</item>
+        <item>+ 4. Cerebral aneurysm</item>
+        <item>+ 5. Pre-operative study, carotid endarterectomy planned</item>
+        <item>+ 6. Abrupt onset of a neurologic deficit – including stroke and TIA</item>
+        <item>+ 7. AVM (arteriovenous malformation)</item>
+        <item><![CDATA[<font COLOR="#800000"><b>+ 8. Suspected cerebral venous thrombosis [Both symptoms and risk factors](MRA, MRI)
+</b></font>]]></item>
+        <item>9. Evaluation of tinnitus (ringing, hissing, buzzing, roaring, clicking, or rough sounds heard by patient)</item>
+        <item>+ 10. Vasculitis including temporal arteritis[Both of the following]</item>
+        <item><![CDATA[<font COLOR="#800000"><b>+ 11. Unilateral headache with suspicion of carotid or vertebral dissection or unilateral Horner’s syndrome (CTA or MRA or MRI)one of the following
+</b></font>]]></item>
+
+    </string-array>
+    <string-array name="cta_1">
+        <item>A. Subarachnoid hemorrhage by CT or lumbar puncture</item>
+        <item>B. Proven subarachnoid hemorrhage with negative angiogram requiring follow up imaging</item>
+    </string-array>
+
+    <string-array name="cta_2">
+        <item>A. CT or MRI positive for intracerebral bleed or hemorrhage or hematoma</item>
+
+    </string-array>
+    <!--<string-array name="cta_3">
+
+    </string-array>-->
+    <string-array name="cta_4">
+        <item>+ A. Screening study for cerebral aneurysm</item>
+        <item>+ B. Suspected cerebral aneurysm</item>
+        <item>+ C. Known cerebral aneurysm documented by CTA, MRA or angiography</item>
+        <item>D. Neurofibromatosis</item>
+        <item>E. Visual field loss</item>
+        <item>F. Thunderclap headache</item>
+        <item>G. Exertional headache</item>
+        <item>H. Preoperative planning for cerebral aneurysm management (surgical or interventional)</item>
+
+    </string-array>
+    <string-array name="cta_5">
+        <item>A. Asymptomatic patient with carotid stenosis of 60% or more by carotid duplex US</item>
+        <item>B. Symptomatic carotid stenosis with carotid duplex US showing 60% stenosis or</item>
+        <item>C. Carotid duplex US showing ulcerated plaque</item>
+    </string-array>
+    <string-array name="cta_6">
+        <item>A. Motor weakness affecting a limb, or one side of the face or body</item>
+        <item>B. Decreased sensation affecting a limb, or one side of the face or body</item>
+        <item>C. Acute or subacute ataxia (unsteady and clumsy motion of the limbs or trunk)</item>
+        <item>D. Confusion including memory loss and disorientation</item>
+        <item>E. Impaired vision, including amaurosis fugax, visual field loss and diplopia</item>
+        <item>F. Aphasia (loss or impairment of the ability to produce or comprehend language due to brain
+        damage)</item>
+        <item>G. Dysarthria (speech disorder resulting from neurological injury)</item>
+        <item>H. Dysphagia with no GI cause</item>
+        <item>I. Vertigo with either headache or nystagmus</item>
+        <item>J. Numbness, tingling, paresthesias</item>
+        <item>K. Decreased level of consciousness</item>
+        <item>L. Papilledema</item>
+        <item>M. Stiff neck</item>
+        <item>N. New onset of severe headache</item>
+        <item>O. Drowsiness</item>
+        <item>P. New onset of vomiting</item>
+        <item>Q. Nystagmus</item>
+        <item>R. Cranial nerve palsy</item>
+        <item>S. Gait disturbance</item>
+        <item>T. Personality or behavioral changes</item>
+        <item>U. New seizure</item>
+        <item>V. Hearing loss or new onset tinnitus</item>
+        <item>W. Agitation</item>
+        <item>X. Somnolence</item>
+        <item>Y. Slow response to verbal communication</item>
+        <item>Z. Sudden falls</item>
+        <item>AA. Balance problems</item>
+    </string-array>
+    <string-array name="cta_7">
+        <item>+ A. Known AVM documented by CTA, MRA, MRI, catheter angiogram</item>
+        <item>+ B. Suspected AVM</item>
+    </string-array>
+    <string-array name="cta_8">
+        <item>+ A. Symptoms</item>
+        <item>+ B. Risk factors</item>
+    </string-array>
+    <!--<string-array name="cta_90">
+
+    </string-array>-->
+    <string-array name="cta_10">
+        <item>+ A. Clinical presentation</item>
+        <item>+ B. Laboratory tests</item>
+    </string-array>
+    <string-array name="cta_11">
+        <item>A. Neck pain</item>
+        <item>B. Unilateral facial or orbital pain</item>
+        <item>C. Unilateral headaches</item>
+        <item>D. Horner’s syndrome, miosis and ptosis (contraction of the iris, drooping eyelid) or</item>
+        <item>E. Transient ischemic attacks (TIA)</item>
+        <item>F. Minor neck trauma</item>
+        <item>G. Rapid onset of headache with strenuous exercise or Valsalva maneuver</item>
+        <item>H. Closed head injury</item>
+    </string-array>
+
+    <string-array name="cta_4_1">
+        <item>1. First degree relative with history of cerebral aneurysm</item>
+        <item>2. Two or more relatives with a history of SAH</item>
+        <item>3. Polycystic kidney disease</item>
+        <item>4. Multiple meningiomas</item>
+        <item>5. Type IV Ehlers-Danlos syndrome</item>
+    </string-array>
+    <string-array name="cta_4_2">
+        <item>1. SAH or intracerebral hematoma on prior imaging</item>
+        <item>2. Isolated cranial nerve (CN) deficit</item>
+    </string-array>
+    <string-array name="cta_4_3">
+        <item>+ 1. Follow-up after intervention (embolization or surgery)</item>
+
+        <item>+ 2. New or worsening clinical findings</item>
+
+        <item>+ 3. Interval evaluation for stability in an asymptomatic individual</item>
+
+    </string-array>
+    <string-array name="cta_4_3_1">
+        <item>a. Shortly after an interventional procedure (i. e. , surgery or embolization)</item>
+        <item>b. Every 6 months after embolization</item>
+        <item>c. Untreated, unruptured intracerebral aneurysms image at 6-12 month intervals</item>
+    </string-array>
+    <string-array name="cta_4_3_2">
+        <item>a. Motor weakness affecting a limb, or one side of the face or body</item>
+        <item>b. Decreased sensation affecting a limb, or one side of the face or body</item>
+        <item>c. Acute ataxia (unsteady and clumsy motion of the limbs or trunk)</item>
+        <item>d. Confusion including memory loss and disorientation</item>
+        <item>e. Impaired vision, including amaurosis fugax, visual field loss and diplopia</item>
+        <item>f. Aphasia (loss or impairment of the ability to produce or comprehend language due to
+        brain damage)</item>
+        <item>g. Dysarthria (speech disorder resulting from neurological injury)</item>
+        <item>h. Dysphagia with no GI cause</item>
+        <item>i. Vertigo with either headache or nystagmus</item>
+        <item>j. Numbness, tingling, paresthesias</item>
+        <item>k. Decreased level of consciousness</item>
+        <item>l. Papilledema</item>
+        <item>m. Stiff neck</item>
+        <item>n. New onset of severe headache</item>
+        <item>o. Drowsiness</item>
+        <item>p. New onset of vomiting</item>
+        <item>q. Nystagmus</item>
+        <item>r. Cranial nerve palsy</item>
+        <item>s. Gait disturbance</item>
+        <item>t. Personality or behavioral changes</item>
+        <item>u. New seizure</item>
+        <item>v. Hearing loss or new onset tinnitus</item>
+        <item>w. Agitation</item>
+        <item>x. Somnolence</item>
+        <item>y. Slow response to verbal communication</item>
+    </string-array>
+    <string-array name="cta_4_3_3">
+        <item>a. Aneurysm 5mm or less annually for up to 5 years and then every other year or</item>
+        <item>b. Aneurysm more than 5 mm every 6 months for up to 5 years and then annually</item>
+    </string-array>
+
+
+    <string-array name="cta_7_1">
+        <item>1. Immediate follow-up after a therapeutic procedure (i. e. , surgery, embolization,
+        radiosurgery)</item>
+        <item>2. Routine follow up after a therapeutic procedure</item>
+        <item>+ 3. New or worsening clinical findings</item>
+
+        <item>4. Planning of intervention (surgical or interventional)</item>
+    </string-array>
+    <string-array name="cta_7_1_3">
+        <item>a. Motor weakness affecting a limb, or one side of the face or body</item>
+        <item>b. Decreased sensation affecting a limb, or one side of the face or body</item>
+        <item>c. Acute or subacute ataxia (unsteady and clumsy motion of the limbs or trunk)</item>
+        <item>d. Confusion including memory loss and disorientation</item>
+        <item>e. Impaired vision, including amaurosis fugax, visual field loss and diplopia</item>
+        <item>f. Aphasia (loss or impairment of the ability to produce or comprehend language due to
+        brain damage)</item>
+        <item>g. Dysarthria (speech disorder resulting from neurological injury)</item>
+        <item>h. Dysphagia with no GI cause</item>
+        <item>i. Vertigo with either headache or nystagmus</item>
+        <item>j. Numbness, tingling, paresthesias</item>
+        <item>k. Decreased level of consciousness</item>
+        <item>l. Papilledema</item>
+        <item>m. Stiff neck</item>
+        <item>n. New onset of severe headache</item>
+        <item>o. Drowsiness</item>
+        <item>p. New onset of vomiting</item>
+        <item>q. Nystagmus</item>
+        <item>s. Gait disturbance</item>
+        <item>t. Personality or behavioral changes</item>
+        <item>u. New seizure</item>
+        <item>v. Hearing loss or new onset tinnitus</item>
+        <item>w. Agitation</item>
+        <item>x. Somnolence</item>
+        <item>y. Slow response to verbal communication</item>
+        <item>z. Sudden falls</item>
+        <item>aa. Balance problems</item>
+    </string-array>
+    <string-array name="cta_7_2">
+        <item>1. Severe unexplained headache (thunderclap headache)</item>
+        <item>2. Altered level of consciousness</item>
+        <item>+ 3. Focal neurologic findings</item>
+
+        <item>4. Subarachnoid hemorrhage on recent CT or MRI of the brain</item>
+        <item>5. Subarachnoid hemorrhage on lumbar puncture</item>
+        <item>6. Intracerebral bleed or hematoma, or hemorrhage on prior CT or MRI of the brain</item>
+
+
+    </string-array>
+    <string-array name="cta_7_2_3">
+        <item>a. Motor weakness affecting a limb, or one side of the face or body</item>
+        <item>b. Decreased sensation affecting a limb, or one side of the face or body</item>
+        <item>c. Acute or subacute ataxia (unsteady and clumsy motion of the limbs or trunk)</item>
+        <item>d. Confusion including memory loss and disorientation</item>
+        <item>e. Impaired vision, including amaurosis fugax, visual field loss and diplopia</item>
+        <item>f. Aphasia (loss or impairment of the ability to produce or comprehend language due to brain damage)</item>
+        <item>g. Dysarthria (speech disorder resulting from neurological injury)</item>
+        <item>h. Dysphagia with no GI cause</item>
+        <item>i. Vertigo with either headache or nystagmus</item>
+        <item>j. Numbness, tingling, paresthesias</item>
+        <item>k. Decreased level of consciousness</item>
+        <item>l. Papilledema</item>
+        <item>m. Stiff neck</item>
+        <item>n. New onset of severe headache</item>
+        <item>o. Drowsiness</item>
+        <item>p. New onset of vomiting</item>
+        <item>q. Nystagmus</item>
+        <item>r. Cranial nerve palsy</item>
+        <item>s. Gait disturbance</item>
+        <item>t. Personality or behavioral changes</item>
+        <item>u. New seizure</item>
+        <item>v. Hearing loss or new onset tinnitus</item>
+        <item>w. Agitation</item>
+        <item>x. Somnolence</item>
+        <item>y. Slow response to verbal communication</item>
+        <item>z. Sudden falls</item>
+        <item>aa. Balance problems</item>
+    </string-array>
+    <string-array name="cta_8_1">
+        <item>1. Papilledema</item>
+        <item>2. Headaches</item>
+        <item>3. Mental status changes</item>
+        <item>4. Vomiting</item>
+        <item>5. Changes in vision</item>
+        <item>6. Seizures</item>
+        <item>7. Lethargy or coma</item>
+        <item>8. Alternating focal neurological deficits</item>
+        <item>9. Hemiparesis or paraparesis</item>
+
+    </string-array>
+    <string-array name="cta_8_2">
+        <item>1. Postpartum</item>
+        <item>2. Post-operative status</item>
+        <item>3. Skull fracture over dural sinus</item>
+        <item>4. Calvarial mass</item>
+        <item>5. Meningitis, sinusitis or middle ear infections</item>
+        <item>+ 6. Hypercoagulable state</item>
+
+        <item>7. Ear, sinus, face, mouth or neck infection</item>
+        <item>8. Brain tumor by history</item>
+    </string-array>
+    <string-array name="cta_8_2_6">
+        <item>a. Personal history of cancer</item>
+        <item>b. Factor V Leiden mutation</item>
+        <item>c. MTHFR</item>
+        <item>d. SLE</item>
+        <item>e. Sickle cell disease</item>
+        <item>f. Contraceptive medications</item>
+        <item>g. Protein C deficiency</item>
+        <item>h. Protein S deficiency</item>
+        <item>i. Antiphospholipid antibodies</item>
+        <item>j. Elevated lipoprotein (a)</item>
+        <item>k. Elevated platelet count</item>
+        <item>l. Prothrombin 20210 gene mutation</item>
+        <item>m. Antithrombin III deficiency</item>
+    </string-array>
+    <string-array name="cta_10_1">
+        <item>1. Headache </item>
+        <item>2. Seizures</item>
+        <item>3. Focal neurologic deficit</item>
+        <item>4. Altered level of consciousness</item>
+        <item>5. Altered mood or personality</item>
+        <item>+ 6. Autoimmune disease such as but not limited to</item>
+
+    </string-array>
+    <string-array name="cta_10_1_6">
+        <item>a. Systemic lupus erythematosus (SLE)</item>
+        <item>b. Polyarteritis nodosa</item>
+        <item>c. Giant cell arteritis or temporal arteritis with temporal tenderness</item>
+        <item>d. Sjögren’s syndrome</item>
+        <item>e. Behçet’s syndrome</item>
+        <item>f. Dermatomyositis</item>
+    </string-array>
+
+    <string-array name="cta_10_2">
+        <item>1. ESR >55 mm/hr</item>
+        <item>2. C-reactive protein >10 mg/L</item>
+        <item>3. ANA positive</item>
+        <item>4. Anticardiolipin antibodies positive</item>
+    </string-array>
+
+
+    <string-array name="ctlist">
+        <item>+ Abrupt onset of a neurologic deficit (including stroke and TIA)  [One of the following]</item>
+        <item>+ Acute, chronic or progressive mental status changes(MRI)</item>
+        <item>+ Arnold-Chiari malformation [One of the following] </item>
+        <item>+ Bell’s palsy, with unusual presentation[One of the following]</item>
+        <item>+ Brain tumors</item>
+        <item>Cephalohematoma</item>
+        <item>+ CNS infection (MRI without and with contrast) [(Both A and B for new infection) or C or D or E or F]</item>
+        <item>Craniosynostosis</item>
+        <item>Encephalocele</item>
+        <item>+ Evaluation after intervention or surgery (CT should be performed for this indication if MRI is absolutely contraindicated) [One of the following]</item>
+        <item>Evaluation of psychiatric disorders</item>
+        <item>Evaluation of tinnitus</item>
+        <item>Fibrous dysplasia</item>
+        <item>+ Follow up proven hematoma, epidural, subarachnoid, or intracerebral (parenchymal) hemorrhage [One of the following]</item>
+        <item>+ Headache, indications for imaging (MRI except for D, J, and K) [One of the following]</item>
+        <item>+ Head trauma [One of the following]</item>
+        <item>+ Hearing loss [One of the following]</item>
+        <item>+ Hydrocephalus [One of the following] </item>
+        <item>+ Macrocephaly</item>
+        <item>+ Microcephaly</item>
+        <item>Papilledema or increased intracerebral pressure (MRI)</item>
+        <item>Planning for stereotactic or gamma knife surgery- may be approved with MRI of the brain</item>
+        <item>Proptosis including thyroid eye disease and exophthalmos [One of the following]</item>
+        <item>+ Re-evaluation after stroke [One of the following]</item>
+        <item>+ Seizure (MRI with gadolinium) [One of the following]</item>
+        <item>+ Suspected acoustic neuroma (schwannoma) or cerebellar pontine angle tumor [One of the following]</item>
+        <item>+ Suspected intracranial hemorrhage[One of the following]</item>
+        <item>+ Suspected pituitary disease (microadenoma, macroadenoma) [One of the following]</item>
+        <item>+ Vertigo</item>
+        <item>+ Visual field deficit (MRI) [One of the following]</item>
+    </string-array>
+
+
+    <string-array name="ctlist_values" translatable="false">
+        <item>2</item>
+        <item>27</item>
+        <item>13</item>
+        <item>29</item>
+        <item>7</item>
+        <item>19</item>
+        <item>6</item>
+        <item>14</item>
+        <item>18</item>
+        <item>9</item>
+        <item>28</item>
+        <item>12</item>
+        <item>15</item>
+        <item>24</item>
+        <item>4</item>
+        <item>1</item>
+        <item>22</item>
+        <item>11</item>
+        <item>16</item>
+        <item>17</item>
+        <item>26</item>
+        <item>30</item>
+        <item>20</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>25</item>
+        <item>8</item>
+        <item>23</item>
+        <item>21</item>
+    </string-array>
+
+
+    <string-array name="ctalist">
+        <item>+ Abrupt onset of a neurologic deficit – including stroke and TIA[One of the following]</item>
+        <item>+ AVM (arteriovenous malformation)[One of the following]</item>
+        <item>+ Cerebral aneurysm</item>
+        <item>Evaluation of tinnitus (ringing, hissing, buzzing, roaring, clicking, or rough sounds heard by patient)</item>
+        <item>+ Pre-operative study, carotid endarterectomy planned[One of the following]</item>
+        <item>+ Proven intracerebral hemorrhage or hematoma</item>
+        <item>Recent stroke by history</item>
+        <item>+ Subarachnoid hemorrhage (SAH) [One of the following]</item>
+        <item>+ Suspected cerebral venous thrombosis[Both symptoms and risk factors](MRA, MRI)</item>
+        <item>+ Unilateral headache with suspicion of carotid or vertebral dissection or unilateral Horner’s syndrome</item>
+        <item>+ Vasculitis ( temporal arteritis)[Both of the following]</item>
+
+
+    </string-array>
+    <string-array name="ctalist_values" translatable="false">
+        <item>6</item>
+        <item>7</item>
+        <item>4</item>
+        <item>9</item>
+        <item>5</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>8</item>
+        <item>11</item>
+        <item>10</item>
+
+
+    </string-array>
+
+</resources>

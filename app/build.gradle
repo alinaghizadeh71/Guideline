@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+    defaultConfig {
+        applicationId "com.example.malihe.guideline"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+}
+
+dependencies {
+
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //add library search in action bar
+    compile files('libs/android-sqlite-asset-helper.jar')
+
+    compile files('libs/gson-2.8.2.jar')
+    //pdf
+    //  compile 'com.joanzapata.pdfview:android-pdfview:1.0.4@aar'
+
+    //favorits
+
+    compile 'com.github.barteksc:android-pdf-viewer:2.3.0'
+    compile 'org.apache.commons:commons-io:1.3.2'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
+    compile 'com.miguelcatalan:materialsearchview:1.3.1'
+    testCompile 'junit:junit:4.12'
+}
+/*compile 'com.github.barteksc:android-pdf-viewer:2.3.0'*/
+/*
+systemProp.http.proxyHost=manual
+systemProp.http.nonProxyHosts=127.0.0.1
+org.gradle.jvmargs=-Xmx1536m
+systemProp.http.proxyPort=8580*/

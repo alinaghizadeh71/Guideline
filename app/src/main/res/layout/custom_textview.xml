@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv"
+
+  android:textSize="18sp"
+    android:gravity="left"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingRight="7dp"
+    android:paddingLeft="5dp"
+    android:textColor="#000"/>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginRight="5dip">
+
+        <TextView
+            android:id="@+id/tv"
+
+            android:textSize="18sp"
+
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="7dp"
+            android:paddingLeft="5dp"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+    <!-- Title Of Song-->
+    <ToggleButton
+        android:id="@+id/fav"
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/tv"
+        android:paddingRight="3dp"
+        android:paddingLeft="3dp"
+        android:layout_marginLeft="3dp"
+        android:textOn=""
+        android:textOff=""/>
+    <!--<ImageButton
+        android:id="@+id/fav"
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+       android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+      android:layout_toRightOf="@+id/tv"
+android:paddingRight="3dp"
+        android:paddingLeft="3dp"
+      android:background="@drawable/favoritee"
+        />-->
+    </RelativeLayout>
+
+    <!--android:layout_width="25dip"
+    android:layout_height="25dip"
+    android:src="@drawable/favoritee"-->
+<!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+    <ImageView
+        android:id="@+id/fav"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/heart_grey" />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingTop="5dp"/>
+</LinearLayout>-->

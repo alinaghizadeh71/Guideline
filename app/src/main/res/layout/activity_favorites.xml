@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!--<android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+        <com.miguelcatalan.materialsearchview.MaterialSearchView
+            android:id="@+id/Search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:searchBackground="@color/colorPrimary"
+            app:searchSuggestionBackground="@color/colorPrimary"
+            app:searchCloseIcon="@drawable/ic_action_navigation_close_inverted"
+            app:searchBackIcon="@drawable/ic_action_navigation_arrow_back_inverted"
+            app:searchSuggestionIcon="@drawable/ic_suggestion"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"></com.miguelcatalan.materialsearchview.MaterialSearchView>
+    </android.support.v7.widget.Toolbar>-->
+
+
+    <!-- android:textStyle="bold"-->
+    <!-- android:background="@color/colorPrimaryDark"-->
+    <!-- android:background="@android:color/transparent"-->
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnDel"
+        android:fillViewport="true">
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:choiceMode="multipleChoice" >
+    </ListView>
+</ScrollView>
+    <!--</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">-->
+    <Button
+        android:id="@+id/btnDel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/lblBtnDel"
+        android:background="@drawable/selector_forbtn"
+        android:textColor="@color/light_font"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+  <!-- </LinearLayout>-->
+    <!--android:divider="#cfcfcf"
+    android:dividerHeight="1px"-->
+  <!--  android:layout_marginTop="10dp"-->
+</RelativeLayout>

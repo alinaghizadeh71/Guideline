@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.malihe.guideline">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".level1"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".level2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".level3"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".about"
+            android:theme="@style/mytheme" />
+        <activity
+            android:name=".dashboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".viewpdf"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".test"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".favorites"
+            android:theme="@style/my"
+            android:parentActivityName="MainActivity"/>
+        <activity android:name=".level4"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".level5"   android:theme="@style/AppTheme" />
+    </application>
+
+</manifest> <!-- android:theme="@style/Theme.AppCompat.Light.Dialog" --><!-- android:screenOrientation="landscape" -->

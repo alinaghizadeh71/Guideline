@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.malihe.guideline.viewpdf">
+<!--<com.github.barteksc.pdfviewer.PDFView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pdff"></com.github.barteksc.pdfviewer.PDFView>-->
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- <com.joanzapata.pdfview.PDFView
+         android:id="@+id/pdfview"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"/>-->
+
+
+   <!-- <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/web"></WebView>-->
+</LinearLayout>
